@@ -1,0 +1,1705 @@
+[
+  {
+    "category": {
+      "id": 1,
+      "french": "L'être humain",
+      "english": "Human being"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 2,
+          "french": "Les attributs physiques",
+          "english": "Physical attributes"
+        },
+        "vocabulary": [
+          {
+            "french": "l'adolescence, un adolescent",
+            "english": "adolescence, adolescent"
+          },
+          {
+            "french": "un adulte",
+            "english": "adult"
+          },
+          {
+            "french": "l'anatomie",
+            "english": "anatomy"
+          },
+          {
+            "french": "l'apparence",
+            "english": "appearence"
+          },
+          {
+            "french": "un corps",
+            "english": "body"
+          },
+          {
+            "french": "marron",
+            "english": "brown"
+          },
+          {
+            "french": "un enfant",
+            "english": "child"
+          },
+          {
+            "french": "une description",
+            "english": "description"
+          },
+          {
+            "french": "une fonction",
+            "english": "function"
+          },
+          {
+            "french": "gris",
+            "english": "grey"
+          },
+          {
+            "french": "un handicapé",
+            "english": "handicaped person"
+          },
+          {
+            "french": "un humain",
+            "english": "human being"
+          },
+          {
+            "french": "clair",
+            "english": "light"
+          },
+          {
+            "french": "une moustache",
+            "english": "moustache"
+          },
+          {
+            "french": "un muscle",
+            "english": "muscle"
+          },
+          {
+            "french": "pâle",
+            "english": "pale"
+          },
+          {
+            "french": "la reproduction",
+            "english": "reproduction"
+          },
+          {
+            "french": "une ressemblance, ressembler",
+            "english": "resemblance, to resemble"
+          },
+          {
+            "french": "la respiration",
+            "english": "respiration"
+          },
+          {
+            "french": "la sexualité",
+            "english": "sexuality"
+          },
+          {
+            "french": "un squelette",
+            "english": "skeleton"
+          },
+          {
+            "french": "un estomac",
+            "english": "stomac"
+          },
+          {
+            "french": "un organe vital",
+            "english": "vital organ"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 3,
+          "french": "Les attributs moraux et les émotions",
+          "english": "Moral attributes and emotions"
+        },
+        "vocabulary": [
+          {
+            "french": "l'admiration, admirer",
+            "english": "admiration, to admire"
+          },
+          {
+            "french": "anxieux(-euse)",
+            "english": "anxious"
+          },
+          {
+            "french": "calme",
+            "english": "calm"
+          },
+          {
+            "french": "le chagrin",
+            "english": "chagrin"
+          },
+          {
+            "french": "compliqué",
+            "english": "complicated"
+          },
+          {
+            "french": "le courage, courageux(-euse)",
+            "english": "courage, courageous"
+          },
+          {
+            "french": "la curiosité, curieux(-euse)",
+            "english": "curiosity, curious"
+          },
+          {
+            "french": "un défaut",
+            "english": "default"
+          },
+          {
+            "french": "désespéré",
+            "english": "desperate"
+          },
+          {
+            "french": "désagréable",
+            "english": "disagreeable"
+          },
+          {
+            "french": "la déception, déçu",
+            "english": "disappointment, disappointed"
+          },
+          {
+            "french": "la discrétion, discret(-ète)",
+            "english": "discretion, dicreet"
+          },
+          {
+            "french": "douter",
+            "english": "to doubt"
+          },
+          {
+            "french": "l'égoïsme, égoïste",
+            "english": "egoism, egoist"
+          },
+          {
+            "french": "l'ennui",
+            "english": "ennui"
+          },
+          {
+            "french": "enthousiaste",
+            "english": "enthousiast"
+          },
+          {
+            "french": "une qualité essentielle",
+            "english": "essential quality"
+          },
+          {
+            "french": "excité",
+            "english": "excited"
+          },
+          {
+            "french": "la générosité, généreux(-euse)",
+            "english": "generosity, generous"
+          },
+          {
+            "french": "l'honnêteté, honnête",
+            "english": "honesty, honest"
+          },
+          {
+            "french": "intelligent",
+            "english": "intelligent"
+          },
+          {
+            "french": "irrité",
+            "english": "irritated"
+          },
+          {
+            "french": "la jalousie, jaloux(-ouse)",
+            "english": "jealousy, jealous"
+          },
+          {
+            "french": "maladroit",
+            "english": "maladroit"
+          },
+          {
+            "french": "nerveux(-euse)",
+            "english": "nervous"
+          },
+          {
+            "french": "l'optimisme, optimiste",
+            "english": "optimism, optimistic"
+          },
+          {
+            "french": "le pessimisme, pessimiste",
+            "english": "pessimism, pessimistic"
+          },
+          {
+            "french": "raisonnable",
+            "english": "reasonable"
+          },
+          {
+            "french": "regretter",
+            "english": "to regret"
+          },
+          {
+            "french": "le respect, respecter",
+            "english": "respect, to respect"
+          },
+          {
+            "french": "la peine",
+            "english": "sadness"
+          },
+          {
+            "french": "sage",
+            "english": "sage"
+          },
+          {
+            "french": "sensible",
+            "english": "sensitive"
+          },
+          {
+            "french": "choquer",
+            "english": "to shock"
+          },
+          {
+            "french": "la sincérité, sincère",
+            "english": "sincerity, sincere"
+          },
+          {
+            "french": "sociable",
+            "english": "sociable"
+          },
+          {
+            "french": "supporter",
+            "english": "to stand"
+          },
+          {
+            "french": "la souffrance, souffrir",
+            "english": "suffering, to suffer"
+          },
+          {
+            "french": "surpris",
+            "english": "surprised"
+          },
+          {
+            "french": "timide",
+            "english": "timid"
+          },
+          {
+            "french": "la tolérance, tolérant",
+            "english": "tolerance, tolerant"
+          },
+          {
+            "french": "tranquille",
+            "english": "tranquil"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 4,
+          "french": "Les sens",
+          "english": "Senses"
+        },
+        "vocabulary": [
+          {
+            "french": "communiquer",
+            "english": "to communicate"
+          },
+          {
+            "french": "un contact",
+            "english": "contact"
+          },
+          {
+            "french": "une odeur",
+            "english": "odour / smell"
+          },
+          {
+            "french": "une perception",
+            "english": "perception"
+          },
+          {
+            "french": "une sensation",
+            "english": "sensation"
+          },
+          {
+            "french": "toucher",
+            "english": "to touch"
+          },
+          {
+            "french": "la vue",
+            "english": "view"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "id": 5,
+      "french": "Les relations familiales et sociales",
+      "english": "Family and social relationships"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 6,
+          "french": "La famille",
+          "english": "Family"
+        },
+        "vocabulary": [
+          {
+            "french": "adopter",
+            "english": "to adopt"
+          },
+          {
+            "french": "une adoption",
+            "english": "adoption"
+          },
+          {
+            "french": "une tante",
+            "english": "aunt"
+          },
+          {
+            "french": "les parents biologiques",
+            "english": "biological parents"
+          },
+          {
+            "french": "une union civile",
+            "english": "civil union"
+          },
+          {
+            "french": "un couple",
+            "english": "couple"
+          },
+          {
+            "french": "un(e) cousin(e)",
+            "english": "cousin"
+          },
+          {
+            "french": "un divorce",
+            "english": "divorce"
+          },
+          {
+            "french": "divorcer",
+            "english": "to divorce"
+          },
+          {
+            "french": "un membre de la famille",
+            "english": "family member"
+          },
+          {
+            "french": "les grands-parents",
+            "english": "grand-parents"
+          },
+          {
+            "french": "un(e) homosexuel(le)",
+            "english": "homosexual"
+          },
+          {
+            "french": "un époux / une épouse",
+            "english": "husband, wife"
+          },
+          {
+            "french": "un mariage",
+            "english": "marriage / wedding"
+          },
+          {
+            "french": "se marier",
+            "english": "to marry"
+          },
+          {
+            "french": "maternel",
+            "english": "maternal"
+          },
+          {
+            "french": "un neveu",
+            "english": "nephew"
+          },
+          {
+            "french": "une nièce",
+            "english": "niece"
+          },
+          {
+            "french": "un parent",
+            "english": "parent"
+          },
+          {
+            "french": "paternel",
+            "english": "paternal"
+          },
+          {
+            "french": "se séparer",
+            "english": "to separate"
+          },
+          {
+            "french": "une séparation",
+            "english": "separation"
+          },
+          {
+            "french": "un oncle",
+            "english": "uncle"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 7,
+          "french": "Les interactions sociales",
+          "english": "Social interactions"
+        },
+        "vocabulary": [
+
+          {
+            "french": "admirer",
+            "english": "to admire"
+          },
+          {
+            "french": "un(e) collaborateur(-trice)",
+            "english": "collaborator"
+          },
+          {
+            "french": "un collegue",
+            "english": "colleague"
+          },
+          {
+            "french": "un(e) concubin(e)",
+            "english": "concubine"
+          },
+          {
+            "french": "détester",
+            "english": "to detest / hate"
+          },
+          {
+            "french": "un(e) directeur(-trice)",
+            "english": "director"
+          },
+          {
+            "french": "un ennemi",
+            "english": "enemy"
+          },
+          {
+            "french": "estimer",
+            "english": "to esteem"
+          },
+          {
+            "french": "un(e) fiancé(e)",
+            "english": "fiancé"
+          },
+          {
+            "french": "une dispute",
+            "english": "fight"
+          },
+          {
+            "french": "se disputer",
+            "english": "to fight"
+          },
+          {
+            "french": "inviter (des amis)",
+            "english": "to invite (friends)"
+          },
+          {
+            "french": "les relations professionnelles",
+            "english": "professional relationships"
+          },
+          {
+            "french": "se réconcilier",
+            "english": "to reconcile"
+          },
+          {
+            "french": "religieux",
+            "english": "religious"
+          },
+          {
+            "french": "partir à la retraite",
+            "english": "to retire"
+          },
+          {
+            "french": "un sentiment",
+            "english": "sentiment"
+          },
+          {
+            "french": "un supérieur",
+            "english": "superior"
+          },
+          {
+            "french": "rendre visite",
+            "english": "to visit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "id": 8,
+      "french": "La santé",
+      "english": "Health"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 9,
+          "french": "Les maladies et les symptômes",
+          "english": "Maladies and symptoms"
+        },
+        "vocabulary": [
+          {
+            "french": "allergique",
+            "english": "allergic"
+          },
+          {
+            "french": "une allergie",
+            "english": "allergy"
+          },
+          {
+            "french": "l'asthme",
+            "english": "asthma"
+          },
+          {
+            "french": "une contagion",
+            "english": "contagion"
+          },
+          {
+            "french": "contagieux[-euse]",
+            "english": "contagious"
+          },
+          {
+            "french": "la fièvre",
+            "english": "fever"
+          },
+          {
+            "french": "une nausée",
+            "english": "nausea"
+          },
+          {
+            "french": "la souffrance, souffrir",
+            "english": "suffering, to suffer"
+          },
+          {
+            "french": "un symptôme",
+            "english": "symptom"
+          },
+          {
+            "french": "la température",
+            "english": "temperature"
+          },
+          {
+            "french": "un virus",
+            "english": "virus"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 10,
+          "french": "Se soigner, guérir",
+          "english": "Getting health care, healing"
+        },
+        "vocabulary": [
+          {
+            "french": "la cardiologie",
+            "english": "cardiology"
+          },
+          {
+            "french": "un coût",
+            "english": "cost"
+          },
+          {
+            "french": "un hopital",
+            "english": "hospital"
+          },
+          {
+            "french": "une hospitalisation",
+            "english": "hospitalisation"
+          },
+          {
+            "french": "hospitalisé",
+            "english": "hospitalised"
+          },
+          {
+            "french": "une assurance",
+            "english": "insurance"
+          },
+          {
+            "french": "un patient",
+            "english": "patient"
+          },
+          {
+            "french": "un(e) pharmacien(ne)",
+            "english": "pharmacist"
+          },
+          {
+            "french": "une pharmacie",
+            "english": "pharmacy"
+          },
+          {
+            "french": "la Sécurité sociale",
+            "english": "social security"
+          },
+          {
+            "french": "un spécialiste (Dr)",
+            "english": "specialist (Dr)"
+          },
+          {
+            "french": "la chirurgie",
+            "english": "surgery"
+          },
+          {
+            "french": "un traitement",
+            "english": "treatment"
+          },
+          {
+            "french": "un vaccin",
+            "english": "vaccine"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 11,
+          "french": "Les accidents et les incidents",
+          "english": "Accidents and incidents"
+        },
+        "vocabulary": [
+          {
+            "french": "un accident",
+            "english": "accident"
+          },
+          {
+            "french": "une ambulance",
+            "english": "ambulance"
+          },
+          {
+            "french": "(en) danger",
+            "english": "(in) danger"
+          },
+          {
+            "french": "une fracture",
+            "english": "fracture"
+          },
+          {
+            "french": "un incident",
+            "english": "incident"
+          },
+          {
+            "french": "une victime",
+            "english": "victim"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 12,
+          "french": "La police",
+          "english": "The police"
+        },
+        "vocabulary": [
+          {
+            "french": "arrêter",
+            "english": "to arrest"
+          },
+          {
+            "french": "une arrestation",
+            "english": "arrestation"
+          },
+          {
+            "french": "contrôler",
+            "english": "to control"
+          },
+          {
+            "french": "l'identité",
+            "english": "identity"
+          },
+          {
+            "french": "interroger",
+            "english": "to interrogate"
+          },
+          {
+            "french": "une interrogation",
+            "english": "interrogation"
+          },
+          {
+            "french": "un passeport",
+            "english": "passport"
+          },
+          {
+            "french": "un pickpocket",
+            "english": "pickpocket"
+          },
+          {
+            "french": "la police",
+            "english": "police"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "id": 13,
+      "french": "Le logement",
+      "english": "Accomodation"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 14,
+          "french": "Les differents types de logement",
+          "english": "Different types of accomodation"
+        },
+        "vocabulary": [
+          {
+            "french": "un appartement",
+            "english": "apartment"
+          },
+          {
+            "french": "une cité",
+            "english": "city"
+          },
+          {
+            "french": "un domicile",
+            "english": "domicile"
+          },
+          {
+            "french": "une ferme",
+            "english": "farm"
+          },
+          {
+            "french": "une maison",
+            "english": "house"
+          },
+          {
+            "french": "une résidence",
+            "english": "residence"
+          },
+          {
+            "french": "un pavillon",
+            "english": "suburban house"
+          },
+          {
+            "french": "une tour",
+            "english": "tower"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 15,
+          "french": "Décrire une résidence",
+          "english": "Describing a residence"
+        },
+        "vocabulary": [
+          {
+            "french": "une adresse",
+            "english": "address"
+          },
+          {
+            "french": "calme",
+            "english": "calm"
+          },
+          {
+            "french": "une cave",
+            "english": "cellar"
+          },
+          {
+            "french": "sombre",
+            "english": "dark"
+          },
+          {
+            "french": "électrique",
+            "english": "electric"
+          },
+          {
+            "french": "un étage",
+            "english": "floor"
+          },
+          {
+            "french": "une entrée",
+            "english": "foyer"
+          },
+          {
+            "french": "un garage",
+            "english": "garage"
+          },
+          {
+            "french": "un hall",
+            "english": "hall"
+          },
+          {
+            "french": "un salon",
+            "english": "living room"
+          },
+          {
+            "french": "un quartier",
+            "english": "neighborhood"
+          },
+          {
+            "french": "une pièce, une chambre",
+            "english": "room"
+          },
+          {
+            "french": "une terrasse",
+            "english": "terrace"
+          },
+          {
+            "french": "les toilettes",
+            "english": "toilets"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 16,
+          "french": "Les meubles / Décrire un objet",
+          "english": "Furniture / Describing an object"
+        },
+        "vocabulary": [
+          {
+            "french": "un aspect",
+            "english": "aspect"
+          },
+          {
+            "french": "grand",
+            "english": "big"
+          },
+          {
+            "french": "bleu",
+            "english": "blue"
+          },
+          {
+            "french": "une couleur",
+            "english": "colour"
+          },
+          {
+            "french": "le coton",
+            "english": "cotton"
+          },
+          {
+            "french": "un placard",
+            "english": "cupboard / closet"
+          },
+          {
+            "french": "(l')exterieur",
+            "english": "exterior"
+          },
+          {
+            "french": "la forme",
+            "english": "form"
+          },
+          {
+            "french": "un objet",
+            "english": "object"
+          },
+          {
+            "french": "oval",
+            "english": "oval"
+          },
+          {
+            "french": "plastique",
+            "english": "plastic"
+          },
+          {
+            "french": "un rectangle",
+            "english": "rectangle"
+          },
+          {
+            "french": "un rond",
+            "english": "round"
+          },
+          {
+            "french": "un drap",
+            "english": "sheet"
+          },
+          {
+            "french": "souple",
+            "english": "soft"
+          },
+          {
+            "french": "une serviette",
+            "english": "towel"
+          },
+          {
+            "french": "une armoire",
+            "english": "wardrobe"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 17,
+          "french": "Les taxes",
+          "english": "Taxes"
+        },
+        "vocabulary": [
+          {
+            "french": "une aide",
+            "english": "aid"
+          },
+          {
+            "french": "un bénéficiaire",
+            "english": "beneficiary"
+          },
+          {
+            "french": "une paye",
+            "english": "payroll"
+          },
+          {
+              "french": "un service",
+              "english": "service"
+          },
+          {
+              "french": "une taxe",
+              "english": "tax"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "id": 18,
+      "french": "L'éducation et le monde professionnel",
+      "english": "Education and work"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 19,
+          "french": "Les professions et les secteurs d'activité",
+          "english": "Professions and activity sectors"
+        },
+        "vocabulary": [
+
+          {
+            "french": "l'administration",
+            "english": "administration"
+          },
+          {
+            "french": "l'agriculture",
+            "english": "agriculture"
+          },
+          {
+            "french": "un artisan",
+            "english": "artisan"
+          },
+          {
+            "french": "la communication",
+            "english": "communication"
+          },
+          {
+            "french": "la culture",
+            "english": "culture"
+          },
+          {
+            "french": "un dentiste",
+            "english": "dentist"
+          },
+          {
+            "french": "l'éducation",
+            "english": "education"
+          },
+          {
+            "french": "un ingénieur",
+            "english": "engineer"
+          },
+          {
+            "french": "la finance",
+            "english": "finance"
+          },
+          {
+            "french": "une fonction",
+            "english": "function"
+          },
+          {
+            "french": "l'industrie",
+            "english": "industry"
+          },
+          {
+            "french": "l'information",
+            "english": "information"
+          },
+          {
+            "french": "un journaliste",
+            "english": "journalist"
+          },
+          {
+            "french": "le secteur privé",
+            "english": "pivate sector"
+          },
+          {
+            "french": "un professeur",
+            "english": "professor"
+          },
+          {
+            "french": "le secteur public",
+            "english": "public sector"
+          },
+          {
+            "french": "des responsabilités",
+            "english": "responsibilities"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 20,
+          "french": "L'environnement de travail",
+          "english": "Working environment"
+        },
+        "vocabulary": [
+          {
+            "french": "annuel",
+            "english": "annual"
+          },
+          {
+            "french": "une galerie d'art",
+            "english": "art gallery"
+          },
+          {
+            "french": "un collègue",
+            "english": "colleague"
+          },
+          {
+            "french": "un contrat",
+            "english": "contract"
+          },
+          {
+            "french": "un CV",
+            "english": "CV (GB) / résumé (US)"
+          },
+          {
+            "french": "employer",
+            "english": "to employ"
+          },
+          {
+            "french": "un employé",
+            "english": "employee"
+          },
+          {
+            "french": "une entreprise",
+            "english": "enterprise"
+          },
+          {
+            "french": "une ferme",
+            "english": "farm"
+          },
+          {
+            "french": "une réunion",
+            "english": "meeting"
+          },
+          {
+            "french": "une mission",
+            "english": "mission"
+          },
+          {
+            "french": "une lettre de motivation",
+            "english": "motivation letter"
+          },
+          {
+            "french": "une ofre (d'emploi)",
+            "english": "(job) offer"
+          },
+          {
+            "french": "une expérience professionnelle",
+            "english": "professional experience"
+          },
+          {
+            "french": "une rémunération",
+            "english": "remuneration"
+          },
+          {
+            "french": "un salaire",
+            "english": "salary / wage"
+          },
+          {
+            "french": "des activités sociales / culturelles",
+            "english": "social / cultural activities"
+          },
+          {
+            "french": "le stress",
+            "english": "stress"
+          },
+          {
+            "french": "une taxe",
+            "english": "tax"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 21,
+          "french": "Se battre pour de meilleur conditions de travail",
+          "english": "Fighting for better work conditions"
+        },
+        "vocabulary": [
+          {
+            "french": "une manifestation",
+            "english": "(street) demonstration"
+          },
+          {
+            "french": "un tract",
+            "english": "handout"
+          },
+          {
+            "french": "un salaire minimum",
+            "english": "minimum wage"
+          },
+          {
+            "french": "une augmentation",
+            "english": "salary increase"
+          },
+          {
+            "french": "un slogan",
+            "english": "slogan"
+          },
+          {
+            "french": "un syndicat",
+            "english": "workers union"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "id": 22,
+      "french": "Les loisirs",
+      "english": "Leisure"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 23,
+          "french": "Les activités culturelles",
+          "english": "Cultural activities"
+        },
+        "vocabulary": [
+          {
+            "french": "un(e) acteur(-trice)",
+            "english": "actor"
+          },
+          {
+            "french": "un centre d'intérêt",
+            "english": "centre of interests"
+          },
+          {
+            "french": "une collection",
+            "english": "collection"
+          },
+          {
+            "french": "un(e) comédien(ne)",
+            "english": "comedian"
+          },
+          {
+            "french": "une comédie",
+            "english": "comedy"
+          },
+          {
+            "french": "un concert",
+            "english": "concert"
+          },
+          {
+            "french": "la danse",
+            "english": "dance"
+          },
+          {
+            "french": "un documentaire",
+            "english": "documentary"
+          },
+          {
+            "french": "un DVD",
+            "english": "DVD"
+          },
+          {
+            "french": "une foire",
+            "english": "fair"
+          },
+          {
+            "french": "un film",
+            "english": "film"
+          },
+          {
+            "french": "intéresser",
+            "english": "to interest"
+          },
+          {
+            "french": "interpréter",
+            "english": "to interpret"
+          },
+          {
+            "french": "un festival de jazz",
+            "english": "jazz festival"
+          },
+          {
+            "french": "un magazine",
+            "english": "magazine"
+          },
+          {
+            "french": "la magie",
+            "english": "magic"
+          },
+          {
+            "french": "la musique",
+            "english": "music"
+          },
+          {
+            "french": "musical",
+            "english": "musical"
+          },
+          {
+            "french": "une occupation",
+            "english": "occupation"
+          },
+          {
+            "french": "un opéra",
+            "english": "opera"
+          },
+          {
+            "french": "une passion",
+            "english": "passion"
+          },
+          {
+            "french": "la photographie",
+            "english": "photography"
+          },
+          {
+            "french": "la radio",
+            "english": "radio"
+          },
+          {
+            "french": "une réservation",
+            "english": "reservation"
+          },
+          {
+            "french": "un role",
+            "english": "role"
+          },
+          {
+            "french": "une scène",
+            "english": "scene"
+          },
+          {
+            "french": "un spectacle",
+            "english": "spectacle"
+          },
+          {
+            "french": "un(e) spectateur(-trice)",
+            "english": "spectator"
+          },
+          {
+            "french": "un succés",
+            "english": "success"
+          },
+          {
+            "french": "une télévision",
+            "english": "television"
+          },
+          {
+            "french": "le théatre",
+            "english": "theatre"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 24,
+          "french": "Les jeux et les sports",
+          "english": "Games and sports"
+        },
+        "vocabulary": [
+          {
+            "french": "un adversaire",
+            "english": "adversary"
+          },
+          {
+            "french": "un(e) campeur(-euse)",
+            "english": "camper"
+          },
+          {
+            "french": "le camping",
+            "english": "camping"
+          },
+          {
+            "french": "des cartes",
+            "english": "cards"
+          },
+          {
+            "french": "la chance",
+            "english": "chance"
+          },
+          {
+            "french": "un club",
+            "english": "club"
+          },
+          {
+            "french": "les dominos",
+            "english": "domino"
+          },
+          {
+            "french": "la coupe d'Europe",
+            "english": "European cup"
+          },
+          {
+            "french": "le football",
+            "english": "football"
+          },
+          {
+            "french": "une forêt",
+            "english": "forest"
+          },
+          {
+            "french": "le judo",
+            "english": "judo"
+          },
+          {
+            "french": "un match",
+            "english": "match"
+          },
+          {
+            "french": "la montagne",
+            "english": "mountain "
+          },
+          {
+            "french": "un parc naturel",
+            "english": "natural parc"
+          },
+          {
+            "french": "la nature",
+            "english": "nature"
+          },
+          {
+            "french": "olympique",
+            "english": "olympic"
+          },
+          {
+            "french": "un pique-nique",
+            "english": "pic-nic"
+          },
+          {
+            "french": "un public",
+            "english": "public"
+          },
+          {
+            "french": "sportif(-ve)",
+            "english": "sportive"
+          },
+          {
+            "french": "un supporter",
+            "english": "supporter"
+          },
+          {
+            "french": "le tennis",
+            "english": "tennis"
+          },
+          {
+            "french": "une promenade",
+            "english": "walk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": {
+      "id": 25,
+      "french": "Les transports et les voyages",
+      "english": "Means of transport and travelling"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 26,
+          "french": "Les transports publics",
+          "english": "Public transportation"
+        },
+        "vocabulary": [
+          {
+            "french": "une hôtesse de l'air",
+            "english": "air hostess"
+          },
+          {
+            "french": "un aeroport",
+            "english": "airport"
+          },
+          {
+            "french": "une arrivée, arriver",
+            "english": "arrival, to arrive"
+          },
+          {
+            "french": "un bagage",
+            "english": "baggage"
+          },
+          {
+            "french": "un bus, une ligne (de bus)",
+            "english": "bus, (bus) line"
+          },
+          {
+            "french": "(première, seconde) classe",
+            "english": "(1st, 2nd) class"
+          },
+          {
+            "french": "confortable",
+            "english": "comfortable"
+          },
+          {
+            "french": "un(e) conducteur(-trice)",
+            "english": "conductor"
+          },
+          {
+            "french": "un contrôle",
+            "english": "control"
+          },
+          {
+            "french": "un départ",
+            "english": "departure"
+          },
+          {
+            "french": "une destination",
+            "english": "destination"
+          },
+          {
+            "french": "une direction",
+            "english": "direction"
+          },
+          {
+            "french": "un chauffeur",
+            "english": "driver"
+          },
+          {
+            "french": "un(e) passager(-ère)",
+            "english": "passenger"
+          },
+          {
+            "french": "un pilote, un copilote",
+            "english": "pilot, co-pilot"
+          },
+          {
+            "french": "une station",
+            "english": "station"
+          },
+          {
+            "french": "un steward",
+            "english": "steward"
+          },
+          {
+            "french": "un tarif",
+            "english": "tariff"
+          },
+          {
+            "french": "un terminal",
+            "english": "terminal"
+          },
+          {
+            "french": "un terminus",
+            "english": "terminus"
+          },
+          {
+            "french": "un ticket",
+            "english": "ticket"
+          },
+          {
+            "french": "un train",
+            "english": "train"
+          },
+          {
+            "french": "un tramway",
+            "english": "tramway"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 27,
+          "french": "Les transports privés",
+          "english": "Private transportation"
+        },
+        "vocabulary": [
+          {
+            "french": "accélérer",
+            "english": "to accelerate"
+          },
+          {
+            "french": "une automobile",
+            "english": "automobile"
+          },
+          {
+            "french": "une batterie",
+            "english": "battery"
+          },
+          {
+            "french": "diesel",
+            "english": "diesel"
+          },
+          {
+            "french": "une distance",
+            "english": "distance"
+          },
+          {
+            "french": "un permis (de conduire)",
+            "english": "driver permit (GB) / license (US)"
+          },
+          {
+            "french": "un garage",
+            "english": "garage"
+          },
+          {
+            "french": "une infraction",
+            "english": "infraction"
+          },
+          {
+            "french": "une assurance",
+            "english": "insurance"
+          },
+          {
+            "french": "une moto",
+            "english": "motorcycle"
+          },
+          {
+            "french": "dépasser",
+            "english": "to pass"
+          },
+          {
+            "french": "une priorité",
+            "english": "priority"
+          },
+          {
+            "french": "la route",
+            "english": "road"
+          },
+          {
+            "french": "un scooter",
+            "english": "scooter"
+          },
+          {
+            "french": "un stop",
+            "english": "stop sign"
+          },
+          {
+            "french": "le trafic",
+            "english": "traffic"
+          },
+          {
+            "french": "un tunnel",
+            "english": "tunnel"
+          },
+          {
+            "french": "un véhicule",
+            "english": "vehicle"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 28,
+          "french": "Les voyages et les migrations",
+          "english": "Travels and migrations"
+        },
+        "vocabulary": [
+          {
+            "french": "une agence (de voyage)",
+            "english": "(travel) agency"
+          },
+          {
+            "french": "une brochure",
+            "english": "brochure"
+          },
+          {
+            "french": "un désert",
+            "english": "desert"
+          },
+          {
+            "french": "une destination",
+            "english": "destination"
+          },
+          {
+            "french": "découvrir",
+            "english": "to discover"
+          },
+          {
+            "french": "émigrer",
+            "english": "to emigrate"
+          },
+          {
+            "french": "une excursion",
+            "english": "excursion"
+          },
+          {
+            "french": "un lac",
+            "english": "lake"
+          },
+          {
+            "french": "un migrant",
+            "english": "migrant"
+          },
+          {
+            "french": "un nomade",
+            "english": "nomad"
+          },
+          {
+            "french": "un port",
+            "english": "port"
+          },
+          {
+            "french": "des précipitations",
+            "english": "precipitation"
+          },
+          {
+            "french": "une saison",
+            "english": "season"
+          },
+          {
+            "french": "un site",
+            "english": "site"
+          },
+          {
+            "french": "un sommet",
+            "english": "summit"
+          },
+          {
+            "french": "le tourisme, un touriste",
+            "english": "tourism, tourist"
+          },
+          {
+            "french": "un voyage, un(e) voyageur(-euse)",
+            "english": "travel"
+          },
+          {
+            "french": "typique",
+            "english": "typical"
+          },
+          {
+            "french": "une vallée",
+            "english": "valley"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 29,
+          "french": "~",
+          "english": "Holiday accomodation"
+        },
+        "vocabulary": [
+          {
+            "french":"un camping",
+            "english":"camping"
+          },
+          {
+            "french":"confort, confortable",
+            "english":"comfort, comfortable"
+          },
+          {
+            "french":"un hôtel",
+            "english":"hotel"
+          },
+          {
+            "french":"luxueux",
+            "english":"luxuous"
+          },
+          {
+            "french":"la qualité du service",
+            "english":"quality of service"
+          },
+          {
+            "french":"une réception",
+            "english":"reception"
+          },
+          {
+            "french":"une réservation, réserver",
+            "english":"reservation, to reserve"
+          }
+        ]
+      }
+    ]
+  }
+]
