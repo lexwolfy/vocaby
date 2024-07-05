@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Card } from 'antd';
 import { useThemeContext } from '../ThemeContext';
 
@@ -25,12 +25,6 @@ const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flip
     const { language } = useThemeContext();
     const lang = flipped ? (language === 'fr' ? 'english' : 'french') : (language === 'fr' ? 'french' : 'english');
     const flagSrc = flipped ? (language === 'fr' ? '/uk.svg' : '/fr.svg') : (language === 'fr' ? '/fr.svg' : '/uk.svg');
-
-    useEffect(() => {
-        if ((language === 'en' && flipped) || (language === 'fr' && !flipped)) {
-            onFlip();
-        }
-    }, [word, language]);
 
     return (
         <Card
