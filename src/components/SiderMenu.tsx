@@ -47,7 +47,7 @@ const SiderMenu: React.FC = () => {
     };
 
     return (
-        <Sider width={300} style={{ background: '#fff' }} collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
+        <Sider width={300} style={{ background: '#fff' }} collapsible collapsedWidth={0} collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
             <Tree
                 checkable
                 onExpand={onExpand}
