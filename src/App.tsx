@@ -71,7 +71,6 @@ const App: React.FC = () => {
                 <Typography.Title level={3} style={{ color: 'white', margin: 0 }}>
                     Vocaby
                 </Typography.Title>
-                <div>
                     <Switch
                         checked={language === 'en'}
                         onChange={toggleLanguage}
@@ -79,7 +78,6 @@ const App: React.FC = () => {
                         unCheckedChildren="FR"
                     />
                     <Button type="primary" shape="circle" icon={mode === 'dark' ? <BulbFilled /> : <BulbOutlined />} onClick={toggleTheme} />
-                </div>
             </Header>
             <Layout>
                 <SiderMenu />

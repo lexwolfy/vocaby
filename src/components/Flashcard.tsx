@@ -1,6 +1,9 @@
 import React from 'react';
 import { Card } from 'antd';
+import { SoundOutlined } from '@ant-design/icons';
 import { useThemeContext } from '../ThemeContext';
+import fr from "../assets/fr.svg";
+import en from "../assets/uk.svg";
 
 interface FlashcardProps {
     word: {
@@ -24,7 +27,7 @@ interface FlashcardProps {
 const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flipped, onFlip }) => {
     const { language } = useThemeContext();
     const lang = flipped ? (language === 'fr' ? 'english' : 'french') : (language === 'fr' ? 'french' : 'english');
-    const flagSrc = flipped ? (language === 'fr' ? '/uk.svg' : '/fr.svg') : (language === 'fr' ? '/fr.svg' : '/uk.svg');
+    const flagSrc = flipped ? (language === 'fr' ? en : fr) : (language === 'fr' ? fr : en);
 
     return (
         <Card
@@ -34,11 +37,13 @@ const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flip
                 textAlign: 'center',
                 cursor: 'pointer',
                 position: 'relative',
-                backgroundColor: 'white'
             }}
+            actions={[
+                <SoundOutlined key="sound" />
+            ]}
         >
             <img src={flagSrc} alt="flag" style={{ position: 'absolute', top: 10, left: 10, width: 24 }} />
-            <div style={{ marginTop: 50 }}>{flipped ? word.french : word.english}</div>
+            <div style={{ marginTop: 50 }}>{word[lang]}</div>
             <div style={{ marginTop: 20, fontSize: '0.8em', color: 'gray' }}>
                 {category[lang]}
             </div>
