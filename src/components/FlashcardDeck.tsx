@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Flashcard from './Flashcard';
-import { Button, Space } from 'antd';
+import { Button, Flex } from 'antd';
 
 interface FlashcardDeckProps {
     words: {
@@ -34,7 +34,7 @@ const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ words }) => {
     };
 
     return (
-        <Space direction="vertical" align="center">
+        <Flex vertical justify="space-between">
             <Flashcard
                 word={words[currentIndex]}
                 category={words[currentIndex].category}
@@ -45,7 +45,7 @@ const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ words }) => {
             <Button type="primary" onClick={handleNext}>
                 Next
             </Button>
-        </Space>
+        </Flex>
     );
 };
 

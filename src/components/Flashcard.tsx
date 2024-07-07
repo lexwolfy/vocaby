@@ -42,7 +42,6 @@ const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flip
                 width: 300,
                 textAlign: 'center',
                 cursor: 'pointer',
-                position: 'relative',
             }}
             actions={[
                 <SwapOutlined key="swap" onClick={onFlip} />,

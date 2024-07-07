@@ -66,7 +66,7 @@ const App: React.FC = () => {
     );
 
     return (
-        <Layout style={{ minHeight: '100vh' }}>
+        <Layout style={{ height: '100vh' }}>
             <Header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Typography.Title level={3} style={{ color: 'white', margin: 0 }}>
                     Vocaby

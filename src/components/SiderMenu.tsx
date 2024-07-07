@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layout, Tree } from 'antd';
+import { Layout, Tree, Button, Flex } from 'antd';
 import type { TreeDataNode, TreeProps } from 'antd';
 import { useThemeContext } from '../ThemeContext';
 import vocabularyData from '../vocabulary.json';
@@ -11,6 +11,7 @@ const SiderMenu: React.FC = () => {
     const { selectedCategories, setActiveCategories, language } = useThemeContext();
     const lang = language === 'fr' ? 'french' : 'english';
     const [collapsed, setCollapsed] = useState(false);
+    const allCategoryIds = vocabularyData.flatMap(category =>  [category.category.id, ...category.subcategories.map(subcategory => subcategory.subcategory.id)]);
 
     const treeCategories: TreeDataNode[] = vocabularyData.map((category: Category) => ({
         title: category.category[lang],
@@ -48,17 +49,21 @@ const SiderMenu: React.FC = () => {
 
     return (
         <Sider width={300} style={{ background: '#fff' }} collapsible collapsedWidth={0} collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
-            <Tree
-                checkable
-                onExpand={onExpand}
-                expandedKeys={expandedKeys}
-                autoExpandParent={autoExpandParent}
-                onCheck={onCheck}
-                checkedKeys={selectedCategories}
-                onSelect={onSelect}
-                // selectedKeys={selectedCategories}
-                treeData={treeCategories}
-            />
+                <Flex justify={'space-around'} align={'center'}>
+                    <Button onClick={() => setActiveCategories(allCategoryIds)}>Select All</Button>
+                    <Button danger onClick={() => setActiveCategories([])}>Unselect All</Button>
+                </Flex>
+                <Tree
+                    checkable
+                    onExpand={onExpand}
+                    expandedKeys={expandedKeys}
+                    autoExpandParent={autoExpandParent}
+                    onCheck={onCheck}
+                    checkedKeys={selectedCategories}
+                    onSelect={onSelect}
+                    // selectedKeys={selectedCategories}
+                    treeData={treeCategories}
+                />
         </Sider>
     );
 };
