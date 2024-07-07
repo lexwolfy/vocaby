@@ -9,6 +9,8 @@ interface ThemeContextType {
     setActiveCategories: (categories: number[]) => void;
     language: 'fr' | 'en';
     toggleLanguage: () => void;
+    collapsed: boolean;
+    setCollapsed: (collapsed: boolean) => void;
 }
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
@@ -16,6 +18,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [mode, setMode] = useState<'light' | 'dark'>('light');
     const [language, setLanguage] = useState<'fr' | 'en'>('en');
+    const [collapsed, setCollapsed] = useState(false);
 
     const allCategoryIds = useMemo(() => {
         return vocabularyData.flatMap(category =>
@@ -51,7 +54,7 @@ export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = (
     };
 
     return (
-        <ThemeContext.Provider value={{ toggleTheme, mode, selectedCategories, setActiveCategories, language, toggleLanguage }}>
+        <ThemeContext.Provider value={{ toggleTheme, mode, selectedCategories, setActiveCategories, language, toggleLanguage, collapsed, setCollapsed }}>
             <ConfigProvider theme={currentTheme}>
                 {children}
             </ConfigProvider>

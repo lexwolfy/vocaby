@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Layout, Tree, Button, Flex } from 'antd';
+import { Button, Flex, Layout, Tree } from 'antd';
 import type { TreeDataNode, TreeProps } from 'antd';
 import { useThemeContext } from '../ThemeContext';
 import vocabularyData from '../vocabulary.json';
@@ -8,9 +8,9 @@ import {Category, Subcategory} from '../Vocabulary.types';
 const { Sider } = Layout;
 
 const SiderMenu: React.FC = () => {
-    const { selectedCategories, setActiveCategories, language } = useThemeContext();
+    const { selectedCategories, setActiveCategories, language, collapsed } = useThemeContext();
     const lang = language === 'fr' ? 'french' : 'english';
-    const [collapsed, setCollapsed] = useState(false);
+    // const [collapsed, setCollapsed] = useState(false);
     const allCategoryIds = vocabularyData.flatMap(category =>  [category.category.id, ...category.subcategories.map(subcategory => subcategory.subcategory.id)]);
 
     const treeCategories: TreeDataNode[] = vocabularyData.map((category: Category) => ({
@@ -48,7 +48,7 @@ const SiderMenu: React.FC = () => {
     };
 
     return (
-        <Sider width={300} style={{ background: '#fff' }} collapsible collapsedWidth={0} collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
+        <Sider width={300} style={{ background: '#fff', maxHeight: '100vh', overflow: 'scroll' }} collapsible collapsedWidth={0} trigger={null} collapsed={collapsed}>
                 <Flex justify={'space-around'} align={'center'}>
                     <Button onClick={() => setActiveCategories(allCategoryIds)}>Select All</Button>
                     <Button danger onClick={() => setActiveCategories([])}>Unselect All</Button>
@@ -64,6 +64,7 @@ const SiderMenu: React.FC = () => {
                     // selectedKeys={selectedCategories}
                     treeData={treeCategories}
                 />
+
         </Sider>
     );
 };

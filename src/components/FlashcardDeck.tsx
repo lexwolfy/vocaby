@@ -34,7 +34,7 @@ const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ words }) => {
     };
 
     return (
-        <Flex vertical justify="space-between">
+        <Flex vertical justify="space-around">
             <Flashcard
                 word={words[currentIndex]}
                 category={words[currentIndex].category}

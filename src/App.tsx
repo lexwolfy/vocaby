@@ -3,8 +3,8 @@ import FlashcardDeck from './components/FlashcardDeck';
 import SiderMenu from './components/SiderMenu';
 import vocabularyData from './vocabulary.json';
 import { useThemeContext } from './ThemeContext';
-import { Layout, Button, Typography, Switch } from 'antd';
-import { BulbOutlined, BulbFilled } from '@ant-design/icons';
+import { Layout, Button, Flex, Typography, Switch } from 'antd';
+import { BulbOutlined, BulbFilled, MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons';
 
 const { Header, Content } = Layout;
 
@@ -43,7 +43,7 @@ interface Category {
 
 const App: React.FC = () => {
     const [words, setWords] = React.useState<VocabularyItem[]>([]);
-    const { toggleTheme, mode, selectedCategories, language, toggleLanguage } = useThemeContext();
+    const { toggleTheme, mode, selectedCategories, language, toggleLanguage, collapsed, setCollapsed } = useThemeContext();
 
     React.useEffect(() => {
         const data: Category[] = vocabularyData;
@@ -66,18 +66,31 @@ const App: React.FC = () => {
     );
 
     return (
-        <Layout style={{ height: '100vh' }}>
-            <Header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Layout style={{ height: '100dvh' }}>
+            <Header style={{ display: 'flex', paddingLeft: 0 }}>
+                <Button
+                    type="text"
+                    icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+                    onClick={() => setCollapsed(!collapsed)}
+                    style={{
+                        fontSize: '16px',
+                        width: 64,
+                        height: 64,
+                        color: 'white'
+                    }}
+                />
+                <Flex justify={'space-between'} align={'center'} style={{flexGrow: 1}}>
                 <Typography.Title level={3} style={{ color: 'white', margin: 0 }}>
                     Vocaby
                 </Typography.Title>
-                    <Switch
-                        checked={language === 'en'}
-                        onChange={toggleLanguage}
-                        checkedChildren="EN"
-                        unCheckedChildren="FR"
-                    />
-                    <Button type="primary" shape="circle" icon={mode === 'dark' ? <BulbFilled /> : <BulbOutlined />} onClick={toggleTheme} />
+                <Switch
+                    checked={language === 'en'}
+                    onChange={toggleLanguage}
+                    checkedChildren="EN"
+                    unCheckedChildren="FR"
+                />
+                <Button type="primary" shape="circle" icon={mode === 'dark' ? <BulbFilled /> : <BulbOutlined />} onClick={toggleTheme} />
+                </Flex>
             </Header>
             <Layout>
                 <SiderMenu />
