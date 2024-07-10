@@ -49,7 +49,7 @@ const SiderMenu: React.FC = () => {
 
     return (
         <Sider width={300} style={{ background: '#fff', maxHeight: '100vh', overflow: 'scroll' }} collapsible collapsedWidth={0} trigger={null} collapsed={collapsed}>
-                <Flex justify={'space-around'} align={'center'}>
+                <Flex justify={'space-around'} align={'center'} style={{padding: '10px 0'}}>
                     <Button onClick={() => setActiveCategories(allCategoryIds)}>Select All</Button>
                     <Button danger onClick={() => setActiveCategories([])}>Unselect All</Button>
                 </Flex>

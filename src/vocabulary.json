@@ -1701,5 +1701,304 @@
         ]
       }
     ]
+  },
+  {
+    "category": {
+      "id": 30,
+      "french": "La nourriture et la restauration",
+      "english": "Food and catering"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 31,
+          "french": "La nourriture",
+          "english": "Food"
+        },
+        "vocabulary": [
+          {
+            "french": "acide",
+            "english": "acid"
+          },
+          {
+            "french": "une amande",
+            "english": "almond"
+          },
+          {
+            "french": "un abricot",
+            "english": "apricot"
+          },
+          {
+            "french": "artificiel",
+            "english": "artificial"
+          },
+          {
+            "french": "une aubergine",
+            "english": "aubergine(GB)/eggplant(US)"
+          },
+          {
+            "french": "un barbecue",
+            "english": "barbecue"
+          },
+          {
+            "french": "du boeuf",
+            "english": "beef"
+          },
+          {
+            "french": "un brie",
+            "english": "Brie"
+          },
+          {
+            "french": "une brioche",
+            "english": "brioche"
+          },
+          {
+            "french": "un brocoli",
+            "english": "broccoli"
+          },
+          {
+            "french": "un camembert",
+            "english": "camembert"
+          },
+          {
+            "french": "une carotte",
+            "english": "carott"
+          },
+          {
+            "french": "des céréales",
+            "english": "cereals"
+          },
+          {
+            "french": "du chocolat",
+            "english": "chocolate"
+          },
+          {
+            "french": "un agrume",
+            "english": "citrus fruit"
+          },
+          {
+            "french": "une compote",
+            "english": "compote"
+          },
+          {
+            "french": "une courgette",
+            "english": "courgette (GB) / zucchini (US)"
+          },
+          {
+            "french": "un crabe",
+            "english": "crab"
+          },
+          {
+            "french": "un concombre",
+            "english": "cucumber"
+          },
+          {
+            "french": "un filet",
+            "english": "filet"
+          },
+          {
+            "french": "frais",
+            "english": "fresh"
+          },
+          {
+            "french": "une salade de fruits",
+            "english": "fruit salade"
+          },
+          {
+            "french": "un pamplemousse",
+            "english": "grapefruit"
+          },
+          {
+            "french": "un jus",
+            "english": "juice"
+          },
+          {
+            "french": "un kiwi",
+            "english": "kiwi"
+          },
+          {
+            "french": "un melon",
+            "english": "melon"
+          },
+          {
+            "french": "de la moutarde",
+            "english": "mustard"
+          },
+          {
+            "french": "de l'huile d'olive",
+            "english": "olive oil"
+          },
+          {
+            "french": "un oignon",
+            "english": "onion"
+          },
+          {
+            "french": "une orange",
+            "english": "orange"
+          },
+          {
+            "french": "une pêche",
+            "english": "peach"
+          },
+          {
+            "french": "une poire",
+            "english": "pear"
+          },
+          {
+            "french": "un raisin (sec)",
+            "english": "raisin"
+          },
+          {
+            "french": "une salade",
+            "english": "salad"
+          },
+          {
+            "french": "une sauce",
+            "english": "sauce"
+          },
+          {
+            "french": "une soupe",
+            "english": "soup"
+          },
+          {
+            "french": "une épice",
+            "english": "spice"
+          },
+          {
+            "french": "un steak",
+            "english": "steak"
+          },
+          {
+            "french": "du sucre",
+            "english": "sugar"
+          },
+          {
+            "french": "une tomate",
+            "english": "tomato"
+          },
+          {
+            "french": "de la vanille",
+            "english": "vanilla"
+          },
+          {
+            "french": "un légume",
+            "english": "vegetable"
+          },
+          {
+            "french": "végétarien(ne)",
+            "english": "vegetarian"
+          },
+          {
+            "french": "une vinaigrette",
+            "english": "vinaigrette"
+          },
+          {
+            "french": "du vinaigre",
+            "english": "vinegar"
+          },
+          {
+            "french": "une vitamine",
+            "english": "vitamin"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 32,
+          "french": "La cuisine et la gastronomie",
+          "english": "Cuisine and gastronomy"
+        },
+        "vocabulary": [
+          {
+            "french": "un apéritif",
+            "english": "apéritif"
+          },
+          {
+            "french": "une bière",
+            "english": "beer"
+          },
+          {
+            "french": "une bouteille",
+            "english": "bottle"
+          },
+          {
+            "french": "une brasserie",
+            "english": "brasserie"
+          },
+          {
+            "french": "une cafétéria",
+            "english": "cafeteria"
+          },
+          {
+            "french": "une carafe",
+            "english": "carafe / jug"
+          },
+          {
+            "french": "un chef",
+            "english": "chef"
+          },
+          {
+            "french": "copieux(-euse)",
+            "english": "copious"
+          },
+          {
+            "french": "un cordon bleu",
+            "english": "cordon bleu"
+          },
+          {
+            "french": "de la crème",
+            "english": "cream"
+          },
+          {
+            "french": "délicieux(-euse)",
+            "english": "delicious"
+          },
+          {
+            "french": "un dessert",
+            "english": "dessert"
+          },
+          {
+            "french": "excellent",
+            "english": "excellent"
+          },
+          {
+            "french": "un fast-food",
+            "english": "fast food"
+          },
+          {
+            "french": "un ingrédient",
+            "english": "ingredient"
+          },
+          {
+            "french": "une limonade",
+            "english": "lemonade"
+          },
+          {
+            "french": "un maître d'hôtel",
+            "english": "maître d'hôtel"
+          },
+          {
+            "french": "une spécialité régionale",
+            "english": "regional speciality"
+          },
+          {
+            "french": "un soda",
+            "english": "soda"
+          },
+          {
+            "french": "un sorbet",
+            "english": "sorbet"
+          },
+          {
+            "french": "une tarte",
+            "english": "tart"
+          },
+          {
+            "french": "une tartelette",
+            "english": "tartlet"
+          }
+        ]
+      }
+    ]
   }
 ]
