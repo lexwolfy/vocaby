@@ -2000,5 +2000,369 @@
         ]
       }
     ]
+  },
+  {
+    "category": {
+      "id": 33,
+      "french": "Les commerces",
+      "english": "Shopping"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 34,
+          "french": "Les différents types de magasins",
+          "english": "Different types of shops"
+        },
+        "vocabulary": []
+      },
+      {
+        "subcategory": {
+          "id": 35,
+          "french": "Faire les magagins",
+          "english": "Shopping"
+        },
+        "vocabulary": []
+      },
+      {
+        "subcategory": {
+          "id": 36,
+          "french": "Les rayons et les produits",
+          "english": "Aisles and products"
+        },
+        "vocabulary": []
+      },
+        {
+          "subcategory": {
+            "id": 37,
+            "french": "Acheter, vendre et les transactions",
+            "english": "Buying, Selling and Transactions"
+          },
+          "vocabulary": [
+            {
+              "french": "la bonne affaire",
+              "english": "bargain"
+            },
+            {
+              "french": "marchander",
+              "english": "bargain"
+            },
+            {
+              "french": "la caisse",
+              "english": "cash register"
+            },
+            {
+              "french": "la monnaie",
+              "english": "change"
+            },
+            {
+              "french": "bon marché",
+              "english": "cheap"
+            },
+            {
+              "french": "coûter",
+              "english": "cost"
+            },
+            {
+              "french": "le crédit",
+              "english": "credit"
+            },
+            {
+              "french": "acheter à crédit",
+              "english": "buy on credit"
+            },
+            {
+              "french": "la carte de crédit",
+              "english": "credit card"
+            },
+            {
+              "french": "le rabais/la réduction",
+              "english": "discount"
+            },
+            {
+              "french": "les soldes (fpl)",
+              "english": "discount sales"
+            },
+            {
+              "french": "hors de prix",
+              "english": "excessively priced"
+            },
+            {
+              "french": "cher/chère",
+              "english": "expensive"
+            },
+            {
+              "french": "fgratuit(e)",
+              "english": "free"
+            },
+            {
+              "french": "l'argent (m)",
+              "english": "money"
+            },
+            {
+              "french": "en réclame/en solde/en liquidation",
+              "english": "on sale"
+            },
+            {
+              "french": "payer en espèces",
+              "english": "pay cash"
+            },
+            {
+              "french": "payer comptant",
+              "english": "pay in full"
+            },
+            {
+              "french": "le paiement",
+              "english": "payment"
+            },
+            {
+              "french": "le prix",
+              "english": "price"
+            },
+            {
+              "french": "acheter",
+              "english": "purchase/buy"
+            },
+            {
+              "french": "l'achat (m)",
+              "english": "purchase"
+            },
+            {
+              "french": "le reçu",
+              "english": "receipt"
+            },
+            {
+              "french": "au détail",
+              "english": "retail"
+            },
+            {
+              "french": "le détaillant",
+              "english": "retailer"
+            },
+            {
+              "french": "le magasin",
+              "english": "shop"
+            },
+            {
+              "french": "faire des achats",
+              "english": "shopping"
+            },
+            {
+              "french": "la vente",
+              "english": "sale"
+            },
+            {
+              "french": "dépenser",
+              "english": "spend"
+            },
+            {
+              "french": "le chèque de voyage",
+              "english": "traveler's check"
+            },
+            {
+              "french": "en gros",
+              "english": "wholesale"
+            },
+            {
+              "french": "le vendeur/la vendeuse en gros",
+              "english": "wholesaler"
+            }
+          ]
+        },
+        {
+          "subcategory": {
+            "id": 38,
+            "french": "Le service client",
+            "english": "Customer service"
+          },
+          "vocabulary": [
+            {
+              "french": "fermé(e)",
+              "english": "closed"
+            },
+            {
+              "french": "l'heure de fermeture (f)",
+              "english": "closing time"
+            },
+            {
+              "french": "le/la client(e)",
+              "english": "customer"
+            },
+            {
+              "french": "désirer",
+              "english": "desire"
+            },
+            {
+              "french": "le salon d'essayage",
+              "english": "dressing room"
+            },
+            {
+              "french": "l'ascenseur (m)",
+              "english": "elevator"
+            },
+            {
+              "french": "l'escalier roulant (m)",
+              "english": "escalator"
+            },
+            {
+              "french": "la sortie de secours",
+              "english": "fire exit"
+            },
+            {
+              "french": "aider / l'aide (f)",
+              "english": "help"
+            },
+            {
+              "french": "la marchandise",
+              "english": "merchandise"
+            },
+            {
+              "french": "ouvrir",
+              "english": "open (verb)"
+            },
+            {
+              "french": "ouvert(e)",
+              "english": "open (adj)"
+            },
+            {
+              "french": "le remboursement",
+              "english": "refund"
+            },
+            {
+              "french": "le vendeur/la vendeuse",
+              "english": "salesperson"
+            },
+            {
+              "french": "le garde",
+              "english": "security guard"
+            },
+            {
+              "french": "vendre",
+              "english": "sell"
+            },
+            {
+              "french": "le service d'information",
+              "english": "service desk"
+            },
+            {
+              "french": "emballer",
+              "english": "wrap"
+            }
+          ]
+        },
+        {
+          "subcategory": {
+            "id": 39,
+            "french": "Les magasins",
+            "english": "Stores"
+          },
+          "vocabulary": [
+            {
+              "french": "la librairie",
+              "english": "bookstore"
+            },
+            {
+              "french": "la bibliothèque",
+              "english": "the library"
+            },
+            {
+              "french": "la boutique",
+              "english": "boutique"
+            },
+            {
+              "french": "la boutique de mariage",
+              "english": "bridal shop"
+            },
+            {
+              "french": "",
+              "english": "consumer warehouse"
+            },
+            {
+              "french": "la grande surface",
+              "english": ""
+            },
+            {
+              "french": "le grand magasin",
+              "english": "department store"
+            },
+            {
+              "french": "le marché aux puces",
+              "english": "flea market"
+            },
+            {
+              "french": "chez le/la fleuriste",
+              "english": "flower shop"
+            },
+            {
+              "french": "le magasin de meubles",
+              "english": "furniture store"
+            },
+            {
+              "french": "la quincaillerie",
+              "english": "hardware store"
+            },
+            {
+              "french": "la bijouterie",
+              "english": "jewelry shop"
+            },
+            {
+              "french": "la maroquinerie",
+              "english": "leather goods store"
+            },
+            {
+              "french": "le centre commercial",
+              "english": "mall"
+            },
+            {
+              "french": "le marché",
+              "english": "market"
+            },
+            {
+              "french": "le kiosque",
+              "english": "newsstand"
+            },
+            {
+              "french": "le mont-de-piété",
+              "english": "pawn shop"
+            },
+            {
+              "french": "le prêteur sur gages",
+              "english": "pawnshop dealer"
+            },
+            {
+              "french": "la parfumerie",
+              "english": "perfumery"
+            },
+            {
+              "french": "la pharmacie",
+              "english": "pharmacy"
+            },
+            {
+              "french": "le magasin de chaussures",
+              "english": "shoe store"
+            },
+            {
+              "french": "le centre commercial",
+              "english": "shopping center"
+            },
+            {
+              "french": "la papeterie",
+              "english": "stationery store"
+            },
+            {
+              "french": "le supermarché/l'hypermarché",
+              "english": "supermarket"
+            },
+            {
+              "french": "le tabac/le bureau de tabac",
+              "english": "tobacco shop, tobacconist"
+            },
+            {
+              "french": "chez le tapissier",
+              "english": "upholstery shop"
+            }
+          ]
+        }
+      ]
   }
 ]
