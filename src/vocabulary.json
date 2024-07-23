@@ -2014,7 +2014,24 @@
           "french": "Les différents types de magasins",
           "english": "Different types of shops"
         },
-        "vocabulary": []
+        "vocabulary": [
+          {
+            "french": "une boutique",
+            "english": "boutique"
+          },
+          {
+            "french": "un commerce de proximité",
+            "english": "local shop"
+          },
+          {
+            "french": "un magasin",
+            "english": "shop / store"
+          },
+          {
+            "french": "un supermarché / une grande surface",
+            "english": "supermarket (GB) / shopping mall (US)"
+          }
+        ]
       },
       {
         "subcategory": {
@@ -2022,7 +2039,64 @@
           "french": "Faire les magagins",
           "english": "Shopping"
         },
-        "vocabulary": []
+        "vocabulary": [
+          {
+            "french": "un article",
+            "english": "article"
+          },
+          {
+            "french": "un code barre",
+            "english": "bar code"
+          },
+          {
+            "french": "un catalogue",
+            "english": "catalogue"
+          },
+          {
+            "french": "la monnaie",
+            "english": "change / currency"
+          },
+          {
+            "french": "un client",
+            "english": "client"
+          },
+          {
+            "french": "une clientèle",
+            "english": "clientele / customers"
+          },
+          {
+            "french": "une carte bancaire",
+            "english": "credit card"
+          },
+          {
+            "french": "une (bonne) affaire",
+            "english": "good deal"
+          },
+          {
+            "french": "un paiement",
+            "english": "payment"
+          },
+          {
+            "french": "un prix",
+            "english": "price"
+          },
+          {
+            "french": "un produit",
+            "english": "product"
+          },
+          {
+            "french": "une promotion",
+            "english": "promotion"
+          },
+          {
+            "french": "une commande",
+            "english": "purchase order"
+          },
+          {
+            "french": "une offre spéciale",
+            "english": "special offer"
+          }
+        ]
       },
       {
         "subcategory": {
@@ -2030,7 +2104,76 @@
           "french": "Les rayons et les produits",
           "english": "Aisles and products"
         },
-        "vocabulary": []
+        "vocabulary": [
+          {
+            "french": "le rayon accessoires",
+            "english": "accessories"
+          },
+          {
+            "french": "à la mode",
+            "english": "à la mode"
+          },
+          {
+            "french": "un bonbon",
+            "english": "candy"
+          },
+          {
+            "french": "classique",
+            "english": "classic"
+          },
+          {
+            "french": "le rayon vêtements",
+            "english": "clothing"
+          },
+          {
+            "french": "le rayon décoration",
+            "english": "decoration"
+          },
+          {
+            "french": "une robe",
+            "english": "dress"
+          },
+          {
+            "french": "une cigarette électronique",
+            "english": "electronic cigarette"
+          },
+          {
+            "french": "le rayon alimentation",
+            "english": "food"
+          },
+          {
+            "french": "le rayon des produits frais",
+            "english": "fresh products"
+          },
+          {
+            "french": "du gel",
+            "english": "gel"
+          },
+          {
+            "french": "le rayon hygiène",
+            "english": "hygiene"
+          },
+          {
+            "french": "le rayon lingerie",
+            "english": "lingerie"
+          },
+          {
+            "french": "le rayon des produits naturels",
+            "english": "natural products"
+          },
+          {
+            "french": "l'agriculture biologique",
+            "english": "organic agriculture"
+          },
+          {
+            "french": "du parfum",
+            "english": "perfume / scent"
+          },
+          {
+            "french": "une petite taille",
+            "english": "petite"
+          }
+        ]
       },
         {
           "subcategory": {
@@ -2364,5 +2507,232 @@
           ]
         }
       ]
+  },
+  {
+    "category": {
+      "id": 40,
+      "french": "L'environnement",
+      "english": "Environment"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 41,
+          "french": "La ville et la campagne",
+          "english": "City and countryside"
+        },
+        "vocabulary": [
+          {
+            "french": "agriculture",
+            "english": "l'agriculture"
+          },
+          {
+            "french": "(domestic) animal",
+            "english": "un animal domestique"
+          },
+          {
+            "french": "aquarium",
+            "english": "un aquarium"
+          },
+          {
+            "french": "architecture",
+            "english": "l'architecture"
+          },
+          {
+            "french": "crocodile",
+            "english": "un crocodile"
+          },
+          {
+            "french": "dolphin",
+            "english": "un dauphin"
+          },
+          {
+            "french": "forest",
+            "english": "une forêt"
+          },
+          {
+            "french": "fruit",
+            "english": "un fruit"
+          },
+          {
+            "french": "fruit tree",
+            "english": "un arbre fruitier"
+          },
+          {
+            "french": "giraffe",
+            "english": "une girafe"
+          },
+          {
+            "french": "lion",
+            "english": "un lion"
+          },
+          {
+            "french": "mammal",
+            "english": "un mammifère"
+          },
+          {
+            "french": "marine",
+            "english": "marin"
+          },
+          {
+            "french": "monkey",
+            "english": "un singe"
+          },
+          {
+            "french": "museum",
+            "english": "un musée / un museum"
+          },
+          {
+            "french": "nature",
+            "english": "la nature"
+          },
+          {
+            "french": "panda",
+            "english": "un panda"
+          },
+          {
+            "french": "rural",
+            "english": "rural"
+          },
+          {
+            "french": "sheep",
+            "english": "un mouton"
+          },
+          {
+            "french": "skate",
+            "english": "une raie"
+          },
+          {
+            "french": "species",
+            "english": "une espèce"
+          },
+          {
+            "french": "tiger",
+            "english": "un tigre"
+          },
+          {
+            "french": "turtle",
+            "english": "une tortue"
+          },
+          {
+            "french": "urban",
+            "english": "urbain"
+          },
+          {
+            "french": "whale",
+            "english": "une baleine"
+          },
+          {
+            "french": "zebra",
+            "english": "un zèbre"
+          },
+          {
+            "french": "zoo",
+            "english": "un zoo"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 42,
+          "french": "L'écologie",
+          "english": "Ecology"
+        },
+        "vocabulary": [
+          {
+            "french": "l'air",
+            "english": "air"
+          },
+          {
+            "french": "l'océan Atlantique",
+            "english": "Atlantic ocean"
+          },
+          {
+            "french": "un climat",
+            "english": "climate"
+          },
+          {
+            "french": "un continent",
+            "english": "continent"
+          },
+          {
+            "french": "la déforestation",
+            "english": "deforestation"
+          },
+          {
+            "french": "une dégradation",
+            "english": "degradation"
+          },
+          {
+            "french": "dégrader",
+            "english": "to degrade"
+          },
+          {
+            "french": "une détérioration",
+            "english": "deterioration"
+          },
+          {
+            "french": "un écosystème",
+            "english": "ecosystem"
+          },
+          {
+            "french": "l'électricité",
+            "english": "electricity"
+          },
+          {
+            "french": "l'environnement",
+            "english": "environment"
+          },
+          {
+            "french": "le réchauffement climatique",
+            "english": "global warming"
+          },
+          {
+            "french": "un gaz à effet de serre",
+            "english": "greenhouse gas"
+          },
+          {
+            "french": "une menace",
+            "english": "menace / threat"
+          },
+          {
+            "french": "l'océan Pacifique",
+            "english": "Pacific ocean"
+          },
+          {
+            "french": "plastique",
+            "english": "plastic"
+          },
+          {
+            "french": "polluer",
+            "english": "to pollute"
+          },
+          {
+            "french": "la pollution",
+            "english": "pollution"
+          },
+          {
+            "french": "recycler",
+            "english": "to recycle"
+          },
+          {
+            "french": "une énergie renouvelable",
+            "english": "renewable energy"
+          },
+          {
+            "french": "solaire",
+            "english": "solar"
+          },
+          {
+            "french": "une température",
+            "english": "temperature"
+          },
+          {
+            "french": "éolien",
+            "english": "wind"
+          }
+        ]
+      }
+    ]
   }
 ]
