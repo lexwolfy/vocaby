@@ -3239,5 +3239,188 @@
         ]
       }
     ]
+  },
+  {
+    "category": {
+      "id": 52,
+      "french": "La communication",
+      "english": "Communication"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 53,
+          "french": "Pensée et raisonnement",
+          "english": "Thinking and reasoning"
+        },
+        "vocabulary": [
+          {
+            "french": "absurde",
+            "english": "absurd"
+          },
+          {
+            "french": "cohérent",
+            "english": "coherent"
+          },
+          {
+            "french": "une conclusion",
+            "english": "conclusion"
+          },
+          {
+            "french": "une déclaration, déclarer",
+            "english": "declaration, to declare"
+          },
+          {
+            "french": "une hésitation",
+            "english": "hesitation"
+          },
+          {
+            "french": "une hypothese",
+            "english": "hypothesis"
+          },
+          {
+            "french": "illogique",
+            "english": "illogical"
+          },
+          {
+            "french": "une introduction",
+            "english": "introduction"
+          },
+          {
+            "french": "irrationnel",
+            "english": "irrational"
+          },
+          {
+            "french": "logique",
+            "english": "logic / logical"
+          },
+          {
+            "french": "un manifeste",
+            "english": "public declaration"
+          },
+          {
+            "french": "rationnel",
+            "english": "rational"
+          },
+          {
+            "french": "la théorie, théorique",
+            "english": "theory, theoric"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 54,
+          "french": "Argumentation et débat",
+          "english": "Arguing and debatting"
+        },
+        "vocabulary": [
+          {
+            "french": "accuser",
+            "english": "to accuse"
+          },
+          {
+            "french": "affirmer",
+            "english": "to affirm"
+          },
+          {
+            "french": "un argument, argumenter",
+            "english": "argument, to argue"
+          },
+          {
+            "french": "assurer",
+            "english": "to assure"
+          },
+          {
+            "french": "une conversation",
+            "english": "conversation"
+          },
+          {
+            "french": "un débat, débattre",
+            "english": "debate, to debate"
+          },
+          {
+            "french": "une décision",
+            "english": "decision"
+          },
+          {
+            "french": "une demonstration, démontrer",
+            "english": "demonstration, to demonstrate"
+          },
+          {
+            "french": "dialoguer",
+            "english": "to dialogue"
+          },
+          {
+            "french": "une discussion",
+            "english": "discussion"
+          },
+          {
+            "french": "une dispute, (se) disputer",
+            "english": "quarrel, to quarrel"
+          },
+          {
+            "french": "une preuve",
+            "english": "evidence / proof"
+          },
+          {
+            "french": "exagerer",
+            "english": "to exagerate"
+          },
+          {
+            "french": "une insulte, insulter",
+            "english": "insult, to insult"
+          },
+          {
+            "french": "un jugement, juger",
+            "english": "judgement, to judge"
+          },
+          {
+            "french": "(se) moquer",
+            "english": "to mock"
+          },
+          {
+            "french": "une négociation, négocier",
+            "english": "negotiation, to negotiate"
+          },
+          {
+            "french": "une opinion",
+            "english": "opinion"
+          },
+          {
+            "french": "une opposition, opposer",
+            "english": "opposition, to oppose"
+          },
+          {
+            "french": "un point de vue",
+            "english": "point of view"
+          },
+          {
+            "french": "une promesse",
+            "english": "promise"
+          },
+          {
+            "french": "proposer",
+            "english": "to propose"
+          },
+          {
+            "french": "protester",
+            "english": "to protest"
+          },
+          {
+            "french": "prouver",
+            "english": "to prove"
+          },
+          {
+            "french": "questionner",
+            "english": "to question"
+          },
+          {
+            "french": "le respect, respecter",
+            "english": "respect, to respect"
+          }
+        ]
+      }
+    ]
   }
 ]
