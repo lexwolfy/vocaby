@@ -2995,5 +2995,249 @@
         ]
       }
     ]
+  },
+  {
+    "category": {
+      "id": 48,
+      "french": "Les médias et le numérique",
+      "english": "Media and digital world"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 49,
+          "french": "Les moyens de communication",
+          "english": "Means of communication"
+        },
+        "vocabulary": [
+          {
+            "french": "une gazette",
+            "english": "gazette"
+          },
+          {
+            "french": "Internet",
+            "english": "Internet"
+          },
+          {
+            "french": "un magazine",
+            "english": "magazine"
+          },
+          {
+            "french": "un journal",
+            "english": "newpaper"
+          },
+          {
+            "french": "une radio",
+            "english": "radio"
+          },
+          {
+            "french": "une station de radio",
+            "english": "radio station"
+          },
+          {
+            "french": "un smartphone",
+            "english": "smartphone"
+          },
+          {
+            "french": "la télévision",
+            "english": "television"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 50,
+          "french": "Les médias",
+          "english": "The media"
+        },
+        "vocabulary": [
+          {
+            "french": "un article",
+            "english": "article"
+          },
+          {
+            "french": "un appareil photo, une caméra",
+            "english": "camera"
+          },
+          {
+            "french": "un débat",
+            "english": "debate"
+          },
+          {
+            "french": "un documentaire",
+            "english": "documentary"
+          },
+          {
+            "french": "un film",
+            "english": "film"
+          },
+          {
+            "french": "une information",
+            "english": "information"
+          },
+          {
+            "french": "une interview",
+            "english": "interview"
+          },
+          {
+            "french": "le journalisme, un journaliste",
+            "english": "journalism, journalist"
+          },
+          {
+            "french": "local / national",
+            "english": "local / national"
+          },
+          {
+            "french": "une actualité",
+            "english": "news"
+          },
+          {
+            "french": "un paparazzi",
+            "english": "paparazzi"
+          },
+          {
+            "french": "la presse",
+            "english": "press"
+          },
+          {
+            "french": "un programme",
+            "english": "programme"
+          },
+          {
+            "french": "un satellite",
+            "english": "satellite"
+          },
+          {
+            "french": "un scoop",
+            "english": "scoop"
+          },
+          {
+            "french": "sensationnel",
+            "english": "sensational"
+          },
+          {
+            "french": "la presse people",
+            "english": "trash media"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 51,
+          "french": "Le numérique",
+          "english": "The digital world"
+        },
+        "vocabulary": [
+          {
+            "french": "une application",
+            "english": "application"
+          },
+          {
+            "french": "l'intelligence artificielle",
+            "english": "artificial intelligence"
+          },
+          {
+            "french": "un blog",
+            "english": "blog"
+          },
+          {
+            "french": "un bug",
+            "english": "bug"
+          },
+          {
+            "french": "le câble",
+            "english": "cable"
+          },
+          {
+            "french": "nu téléphone mobile / portable",
+            "english": "cellular / mobile phone"
+          },
+          {
+            "french": "un chat",
+            "english": "chat"
+          },
+          {
+            "french": "un cloud",
+            "english": "cloud"
+          },
+          {
+            "french": "une connexion",
+            "english": "connection"
+          },
+          {
+            "french": "un (e-)mail",
+            "english": "e-mail"
+          },
+          {
+            "french": "un hashtag / un mot dièse",
+            "english": "hashtag"
+          },
+          {
+            "french": "une innovation",
+            "english": "innovation"
+          },
+          {
+            "french": "un site Internet",
+            "english": "Internet website"
+          },
+          {
+            "french": "une nouvelle technologie numérique",
+            "english": "new digital technology"
+          },
+          {
+            "french": "la fibre optique",
+            "english": "optic fiber"
+          },
+          {
+            "french": "un podcast",
+            "english": "podcast"
+          },
+          {
+            "french": "en replay",
+            "english": "replay"
+          },
+          {
+            "french": "un selfie",
+            "english": "selfie"
+          },
+          {
+            "french": "un serveur",
+            "english": "server"
+          },
+          {
+            "french": "les médias sociaux",
+            "english": "social media"
+          },
+          {
+            "french": "en streaming",
+            "english": "streaming"
+          },
+          {
+            "french": "une tablette",
+            "english": "tablet"
+          },
+          {
+            "french": "un tag",
+            "english": "tag"
+          },
+          {
+            "french": "une vidéo",
+            "english": "video"
+          },
+          {
+            "french": "un virus / un anti-virus",
+            "english": "virus / anti-virus"
+          },
+          {
+            "french": "le web / la toile",
+            "english": "web"
+          },
+          {
+            "french": "la WI-FI",
+            "english": "WI-FI"
+          }
+        ]
+      }
+    ]
   }
 ]
