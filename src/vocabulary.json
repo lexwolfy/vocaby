@@ -2734,5 +2734,266 @@
         ]
       }
     ]
+  },
+  {
+    "category": {
+      "id": 43,
+      "french": "La vie sociale et économique",
+      "english": "Social and economic life"
+    },
+    "subcategories": [
+      {
+        "subcategory": {
+          "id": 44,
+          "french": "L'économie",
+          "english": "The economy"
+        },
+        "vocabulary": [
+          {
+          "french": "une banque",
+          "english": "bank"
+          },
+          {
+            "french": "le capital, capitaliste",
+            "english": "capital, capitalist"
+          },
+          {
+            "french": "un crédit",
+            "english": "credit"
+          },
+          {
+            "french": "une dette",
+            "english": "debt"
+          },
+          {
+            "french": "l'économie",
+            "english": "economy"
+          },
+          {
+            "french": "une entreprise",
+            "english": "enterprise"
+          },
+          {
+            "french": "l'industrie",
+            "english": "industry"
+          },
+          {
+            "french": "le secteur public",
+            "english": "public sector"
+          },
+          {
+            "french": "un salaire",
+            "english": "salary"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 45,
+          "french": "La politique et le gouvernement",
+          "english": "Politics and government"
+        },
+        "vocabulary": [
+          {
+            "french": "la fonction publique (l'administration)",
+            "english": "administration"
+          },
+          {
+            "french": "le communisme, communiste",
+            "english": "communism, communist"
+          },
+          {
+            "french": "conservateur(-trice)",
+            "english": "conservative"
+          },
+          {
+            "french": "une democratie",
+            "english": "democracy"
+          },
+          {
+            "french": "un gouvernement",
+            "english": "government"
+          },
+          {
+            "french": "libéral",
+            "english": "liberal"
+          },
+          {
+            "french": "une monarchie, un monarque",
+            "english": "monarchy, monarch"
+          },
+          {
+            "french": "un président",
+            "english": "president"
+          },
+          {
+            "french": "Prime Minister / Premier",
+            "english": "le Premier ministre"
+          },
+          {
+            "french": "une république",
+            "english": "republic"
+          },
+          {
+            "french": "une révolution",
+            "english": "revolution"
+          },
+          {
+            "french": "royaliste",
+            "english": "royalist"
+          },
+          {
+            "french": "un secrétaire d'État",
+            "english": "secretary of state"
+          },
+          {
+            "french": "le socialisme, socialiste",
+            "english": "socialism, socialist"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 46,
+          "french": "Les élections et les institutions",
+          "english": "The elections and institutions"
+        },
+        "vocabulary": [
+          {
+            "french": "un candidat",
+            "english": "candidate"
+          },
+          {
+            "french": "une constitution",
+            "english": "constitution"
+          },
+          {
+            "french": "une campagne électorale",
+            "english": "electoral campaign"
+          },
+          {
+            "french": "le pouvoir exécutif",
+            "english": "executive power"
+          },
+          {
+            "french": "le pouvoir législatif",
+            "english": "legislative power"
+          },
+          {
+            "french": "la majorité",
+            "english": "majority"
+          },
+          {
+            "french": "une nation",
+            "english": "nation"
+          },
+          {
+            "french": "l'opposition",
+            "english": "opposition"
+          },
+          {
+            "french": "un parlement",
+            "english": "parliament"
+          },
+          {
+            "french": "party",
+            "english": "un parti"
+          },
+          {
+            "french": "un peuple",
+            "english": "people"
+          },
+          {
+            "french": "un référendum",
+            "english": "referendum"
+          },
+          {
+            "french": "l'Etat",
+            "english": "state"
+          },
+          {
+            "french": "le Sénat, un(e) sénateur (-trice)",
+            "english": "senate, senator"
+          },
+          {
+            "french": "un vote, voter",
+            "english": "vote, to vote"
+          }
+        ]
+      },
+      {
+        "subcategory": {
+          "id": 47,
+          "french": "La religion",
+          "english": "Religion"
+        },
+        "vocabulary" : [
+          {
+            "french": "une cathédrale",
+            "english": "cathedral"
+          },
+          {
+            "french": "catholique",
+            "english": "catholic"
+          },
+          {
+            "french": "le christianisme",
+            "english": "christianism"
+          },
+          {
+            "french": "l'islam",
+            "english": "islam"
+          },
+          {
+            "french": "juif",
+            "english": "jew"
+          },
+          {
+            "french": "le judaisme",
+            "english": "judaism"
+          },
+          {
+            "french": "une messe",
+            "english": "mass"
+          },
+          {
+            "french": "une mosquée",
+            "english": "mosque"
+          },
+          {
+            "french": "musulman",
+            "english": "muslim"
+          },
+          {
+            "french": "une prière",
+            "english": "prayer"
+          },
+          {
+            "french": "un prêtre",
+            "english": "priest"
+          },
+          {
+            "french": "protestant",
+            "english": "protestant"
+          },
+          {
+            "french": "un rite",
+            "english": "rite"
+          },
+          {
+            "french": "spirituel",
+            "english": "spiritual"
+          },
+          {
+            "french": "une synagogue",
+            "english": "synagogue"
+          },
+          {
+            "french": "un temple",
+            "english": "temple"
+          }
+        ]
+      }
+    ]
   }
 ]
