@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Flashcard from './Flashcard';
 import { Button, Flex } from 'antd';
+import {useThemeContext} from "../ThemeContext";
 
 interface FlashcardDeckProps {
     words: {
@@ -22,6 +23,7 @@ interface FlashcardDeckProps {
 const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ words }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [flipped, setFlipped] = useState(false);
+    const { language } = useThemeContext();
 
     const handleNext = () => {
         const randomIndex = Math.floor(Math.random() * words.length);
@@ -42,8 +44,8 @@ const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ words }) => {
                 flipped={flipped}
                 onFlip={handleFlip}
             />
-            <Button type="primary" onClick={handleNext}>
-                Next
+            <Button type="primary" onClick={handleNext} size={'large'}>
+                { language === "en" ? 'Next' : 'Suivant' }
             </Button>
         </Flex>
     );
