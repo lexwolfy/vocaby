@@ -6,7 +6,7 @@ import { useThemeContext } from './ThemeContext';
 import { Layout, Button, Flex, Typography, Switch } from 'antd';
 import { BulbOutlined, BulbFilled, MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons';
 
-const { Header, Content } = Layout;
+const { Header, Content, Footer } = Layout;
 
 interface VocabularyItem {
     french: string;
@@ -83,12 +83,6 @@ const App: React.FC = () => {
                 <Typography.Title level={3} style={{ color: 'white', margin: 0 }}>
                     Vocaby
                 </Typography.Title>
-                <Switch
-                    checked={language === 'en'}
-                    onChange={toggleLanguage}
-                    checkedChildren="EN"
-                    unCheckedChildren="FR"
-                />
                 <Button type="primary" shape="circle" icon={mode === 'dark' ? <BulbFilled /> : <BulbOutlined />} onClick={toggleTheme} />
                 </Flex>
             </Header>
@@ -104,6 +98,16 @@ const App: React.FC = () => {
                     </Content>
                 </Layout>
             </Layout>
+            <Footer style={{ backgroundColor: '#001529'}}>
+                <Flex justify='center' align='center'>
+                    <Switch
+                        checked={language === 'en'}
+                        onChange={toggleLanguage}
+                        checkedChildren="EN"
+                        unCheckedChildren="FR"
+                    />
+                </Flex>
+            </Footer>
         </Layout>
     );
 };
