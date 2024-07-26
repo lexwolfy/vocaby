@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vocaby/static/css/main.e6c13ad2.css",
-    "main.js": "/vocaby/static/js/main.3b94649b.js",
+    "main.js": "/vocaby/static/js/main.f1099d6b.js",
     "static/js/453.9d4a4fc2.chunk.js": "/vocaby/static/js/453.9d4a4fc2.chunk.js",
     "index.html": "/vocaby/index.html",
     "static/media/uk.svg": "/vocaby/static/media/uk.8c3d2102446be2711b46b83bef6cc68e.svg",
     "static/media/fr.svg": "/vocaby/static/media/fr.bd576e95d7754ba039aa7d2865b8e955.svg",
     "main.e6c13ad2.css.map": "/vocaby/static/css/main.e6c13ad2.css.map",
-    "main.3b94649b.js.map": "/vocaby/static/js/main.3b94649b.js.map",
+    "main.f1099d6b.js.map": "/vocaby/static/js/main.f1099d6b.js.map",
     "453.9d4a4fc2.chunk.js.map": "/vocaby/static/js/453.9d4a4fc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3b94649b.js"
+    "static/js/main.f1099d6b.js"
   ]
 }
