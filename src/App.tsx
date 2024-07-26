@@ -43,7 +43,7 @@ interface Category {
 
 const App: React.FC = () => {
     const [words, setWords] = React.useState<VocabularyItem[]>([]);
-    const { toggleTheme, mode, selectedCategories, language, toggleLanguage, collapsed, setCollapsed } = useThemeContext();
+    const { toggleTheme, mode, selectedCategories, language, toggleLanguage, collapsed, toggleCollapsed } = useThemeContext();
 
     React.useEffect(() => {
         const data: Category[] = vocabularyData;
@@ -71,7 +71,7 @@ const App: React.FC = () => {
                 <Button
                     type="text"
                     icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-                    onClick={() => setCollapsed(!collapsed)}
+                    onClick={() => toggleCollapsed()}
                     style={{
                         fontSize: '16px',
                         width: 64,

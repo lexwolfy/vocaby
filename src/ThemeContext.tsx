@@ -10,7 +10,7 @@ interface ThemeContextType {
     language: 'fr' | 'en';
     toggleLanguage: () => void;
     collapsed: boolean;
-    setCollapsed: (collapsed: boolean) => void;
+    toggleCollapsed: () => void;
 }
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
@@ -18,7 +18,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [mode, setMode] = useState<'light' | 'dark'>('light');
     const [language, setLanguage] = useState<'fr' | 'en'>('en');
-    const [collapsed, setCollapsed] = useState(false);
+    const [collapsed, setCollapsed] = useState(localStorage.getItem('collapsed') === 'true' ?? false);
 
     const localCategoryIds = localStorage.getItem('selectedCategories');
     const selectedLocalCategories = localCategoryIds ? JSON.parse(localCategoryIds) : null;
@@ -59,8 +59,13 @@ export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = (
         setLanguage((prevLanguage) => (prevLanguage === 'fr' ? 'en' : 'fr'));
     };
 
+    const toggleCollapsed = () => {
+        setCollapsed((prevCollapsed) => !prevCollapsed);
+        localStorage.setItem('collapsed', JSON.stringify(!collapsed));
+    }
+
     return (
-        <ThemeContext.Provider value={{ toggleTheme, mode, selectedCategories, setActiveCategories, language, toggleLanguage, collapsed, setCollapsed }}>
+        <ThemeContext.Provider value={{ toggleTheme, mode, selectedCategories, setActiveCategories, language, toggleLanguage, collapsed, toggleCollapsed }}>
             <ConfigProvider theme={currentTheme}>
                 {children}
             </ConfigProvider>
