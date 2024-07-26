@@ -27,7 +27,6 @@ const SiderMenu: React.FC = () => {
         setActiveCategories(checkedKeysValue as number[]);
         // setCheckedKeys(checkedKeysValue as React.Key[]);
         // toggleCategory(checkedKeysValue);
-        console.log('clicky click');
     };
 
     const [expandedKeys, setExpandedKeys] = useState<React.Key[]>(selectedCategories);

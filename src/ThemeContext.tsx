@@ -1,4 +1,4 @@
-import React, { createContext, useState, useMemo, useContext, useEffect } from 'react';
+import React, { createContext, useState, useMemo, useContext } from 'react';
 import { ConfigProvider, theme } from 'antd';
 import vocabularyData from './vocabulary.json';
 
@@ -20,17 +20,20 @@ export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = (
     const [language, setLanguage] = useState<'fr' | 'en'>('en');
     const [collapsed, setCollapsed] = useState(false);
 
+    const localCategoryIds = localStorage.getItem('selectedCategories');
+    const selectedLocalCategories = localCategoryIds ? JSON.parse(localCategoryIds) : null;
+
     const allCategoryIds = useMemo(() => {
         return vocabularyData.flatMap(category =>
             [category.category.id, ...category.subcategories.map(subcategory => subcategory.subcategory.id)]
         );
     }, []);
 
-    const [selectedCategories, setSelectedCategories] = useState<number[]>(allCategoryIds);
+    const [selectedCategories, setSelectedCategories] = useState<number[]>(selectedLocalCategories ?? allCategoryIds);
 
-    useEffect(() => {
-        setSelectedCategories(allCategoryIds);
-    }, [allCategoryIds]);
+    // useEffect(() => {
+    //     setSelectedCategories(selectedLocalCategories ?? allCategoryIds);
+    // }, [selectedLocalCategories, allCategoryIds]);
 
     const currentTheme = useMemo(() => {
         const algorithm = mode === 'light' ? theme.defaultAlgorithm : theme.darkAlgorithm;
@@ -47,7 +50,10 @@ export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = (
         setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
     };
 
-    const setActiveCategories = (categories: number[]) => setSelectedCategories(categories);
+    const setActiveCategories = (categories: number[]) => {
+        localStorage.setItem('selectedCategories', JSON.stringify(categories));
+        setSelectedCategories(categories);
+    }
 
     const toggleLanguage = () => {
         setLanguage((prevLanguage) => (prevLanguage === 'fr' ? 'en' : 'fr'));
