@@ -43,7 +43,7 @@ interface Category {
 
 const App: React.FC = () => {
     const [words, setWords] = React.useState<VocabularyItem[]>([]);
-    const { toggleTheme, mode, selectedCategories, language, toggleLanguage, collapsed, toggleCollapsed,  } = useThemeContext();
+    const { toggleTheme, mode, selectedCategories, language, toggleLanguage, collapsed, toggleCollapsed } = useThemeContext();
 
     React.useEffect(() => {
         const data: Category[] = vocabularyData;
@@ -66,7 +66,7 @@ const App: React.FC = () => {
         (word) =>
             selectedCategories.includes(word.category.id) ||
             selectedCategories.includes(word.subcategory.id)
-    ), ...localFavorite];
+    ), ...(selectedCategories.includes(0) ? localFavorite : [])];
 
     return (
         <Layout style={{ height: '100dvh' }}>
