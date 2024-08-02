@@ -12,6 +12,7 @@ interface ThemeContextType {
     toggleLanguage: () => void;
     collapsed: boolean;
     toggleCollapsed: () => void;
+    favorite: VocabularyItem[];
     toggleFavorite: (word: VocabularyItem) => void;
     isFavorite: (word: VocabularyItem) => boolean;
     clearFavorite: () => void;
@@ -88,7 +89,7 @@ export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = (
     }
 
     return (
-        <ThemeContext.Provider value={{ toggleTheme, mode, selectedCategories, setActiveCategories, language, toggleLanguage, collapsed, toggleCollapsed, toggleFavorite, isFavorite, clearFavorite }}>
+        <ThemeContext.Provider value={{ toggleTheme, mode, selectedCategories, setActiveCategories, language, toggleLanguage, collapsed, toggleCollapsed, favorite, toggleFavorite, isFavorite, clearFavorite }}>
             <ConfigProvider theme={currentTheme}>
                 {children}
             </ConfigProvider>

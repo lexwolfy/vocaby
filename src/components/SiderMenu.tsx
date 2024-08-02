@@ -8,11 +8,11 @@ import {Category, Subcategory} from '../Vocabulary.types';
 const { Sider } = Layout;
 
 const SiderMenu: React.FC = () => {
-    const { selectedCategories, setActiveCategories, language, collapsed } = useThemeContext();
+    const { selectedCategories, setActiveCategories, language, collapsed, favorite } = useThemeContext();
     const lang = language === 'fr' ? 'french' : 'english';
     const allCategoryIds = vocabularyData.flatMap(category =>  [category.category.id, ...category.subcategories.map(subcategory => subcategory.subcategory.id)]);
 
-    const treeCategories: TreeDataNode[] = [{title: language === 'fr' ? 'Favoris' : 'Favorite', key: 0}, ...vocabularyData.map((category: Category) => ({
+    const treeCategories: TreeDataNode[] = [{title: (language === 'fr' ? 'Favoris' : 'Favorite')+` (${favorite.length})`, key: 0}, ...vocabularyData.map((category: Category) => ({
         title: category.category[lang],
         key: category.category.id,
         children: category.subcategories.map((subcategory: Subcategory) => ({
