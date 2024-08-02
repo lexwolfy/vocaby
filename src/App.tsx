@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import FlashcardDeck from './components/FlashcardDeck';
 import SiderMenu from './components/SiderMenu';
 import vocabularyData from './vocabulary.json';
