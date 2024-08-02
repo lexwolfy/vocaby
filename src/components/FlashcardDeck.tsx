@@ -23,7 +23,7 @@ interface FlashcardDeckProps {
 const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ words}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [flipped, setFlipped] = useState(false);
-    const { language, selectedCategories, favorite } = useThemeContext();
+    const { language, selectedCategories } = useThemeContext();
 
     const handleNext = () => {
         const randomIndex = Math.floor(Math.random() * words.length);
@@ -37,7 +37,7 @@ const FlashcardDeck: React.FC<FlashcardDeckProps> = ({ words}) => {
 
     useEffect(() => {
         setCurrentIndex(0);
-    }, [selectedCategories, favorite]);
+    }, [selectedCategories]);
 
     return (
         <Flex vertical justify="space-around">
