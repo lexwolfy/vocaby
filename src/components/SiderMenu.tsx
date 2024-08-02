@@ -35,11 +35,6 @@ const SiderMenu: React.FC = () => {
         setAutoExpandParent(false);
     };
 
-    const onSelect: TreeProps['onSelect'] = (selectedKeysValue, info) => {
-        // setSelectedKeys(selectedKeysValue);
-        // Can add toggle here actually for ease of use
-    };
-
     return (
         <Sider width={300} style={{ background: '#fff', maxHeight: '100vh', overflow: 'scroll', zIndex: 1 }} collapsible collapsedWidth={0} trigger={null} collapsed={collapsed}>
                 <Flex justify={'space-around'} align={'center'} style={{padding: '10px 0'}}>
@@ -53,8 +48,8 @@ const SiderMenu: React.FC = () => {
                     autoExpandParent={autoExpandParent}
                     onCheck={onCheck}
                     checkedKeys={selectedCategories}
-                    onSelect={onSelect}
                     treeData={treeCategories}
+                    selectable={false}
                 />
 
         </Sider>
