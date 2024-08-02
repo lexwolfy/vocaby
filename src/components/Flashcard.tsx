@@ -1,6 +1,6 @@
-import React from 'react';
-import { Card } from 'antd';
-import {SoundOutlined, SwapOutlined} from '@ant-design/icons';
+import React, {useState} from 'react';
+import { Card, message } from 'antd';
+import {AudioFilled, AudioOutlined, SoundOutlined, StarFilled, StarOutlined, SwapOutlined} from '@ant-design/icons';
 import { useThemeContext } from '../ThemeContext';
 import fr from "../assets/fr.svg";
 import en from "../assets/uk.svg";
@@ -24,11 +24,15 @@ interface FlashcardProps {
     onFlip: () => void;
 }
 const synth = window.speechSynthesis;
+const SpeechRecognition = (window as any).webkitSpeechRecognition;
 
 const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flipped, onFlip }) => {
-    const { language } = useThemeContext();
+    const { language, toggleFavorite, isFavorite } = useThemeContext();
     const lang = flipped ? (language === 'fr' ? 'english' : 'french') : (language === 'fr' ? 'french' : 'english');
     const flagSrc = flipped ? (language === 'fr' ? en : fr) : (language === 'fr' ? fr : en);
+    const [listening, setListening] = useState(false);
+    const [messageApi, contextHolder] = message.useMessage();
+
 
     const onSpeak = () => {
         const utterance = new SpeechSynthesisUtterance(word[lang]);
@@ -36,7 +40,51 @@ const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flip
         synth.speak(utterance);
     }
 
+    const recognition = new SpeechRecognition();
+
+    const onListen = () => {
+        recognition.lang = lang === 'french' ? 'fr' : 'en';
+        setListening(true);
+        if (!listening) {
+            recognition.start();
+            console.log('started');
+        }
+    }
+
+    recognition.onerror = (event: any) => {
+        console.error('error', event.error);
+        messageApi.open({
+            type: 'error',
+            content: 'Oops! Looks like an error happened',
+        });
+    }
+
+    recognition.onend = () => {
+        setListening(false);
+    }
+
+    recognition.onresult = (event: any) => {
+        const color = event.results[0][0].transcript;
+        if (color === word[lang]) {
+            messageApi.open({
+                type: 'success',
+                content: 'Congratz',
+            });
+        } else {
+            messageApi.open({
+                type: 'warning',
+                content: 'Try again!',
+            });
+        }
+    };
+
+    const onStar = () => {
+        toggleFavorite(word);
+    }
+
     return (
+        <>
+        {contextHolder}
         <Card
             style={{
                 width: 300,
@@ -45,7 +93,9 @@ const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flip
             }}
             actions={[
                 <SwapOutlined key="swap" onClick={onFlip} />,
-                <SoundOutlined key="sound" onClick={onSpeak} />
+                <SoundOutlined key="speak" onClick={onSpeak} />,
+                listening ? <AudioFilled disabled={true} key="listen" onClick={onListen} /> : <AudioOutlined disabled={true} key="listen" onClick={onListen} />,
+                isFavorite(word) ? <StarFilled key="star" onClick={onStar} /> : <StarOutlined key="star" onClick={onStar} />,
             ]}
         >
             <img src={flagSrc} alt="flag" style={{ position: 'absolute', top: 10, left: 10, width: 24 }} />
@@ -57,6 +107,7 @@ const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flip
                 {subcategory[lang]}
             </div>
         </Card>
+        </>
     );
 };
 

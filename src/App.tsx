@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import FlashcardDeck from './components/FlashcardDeck';
 import SiderMenu from './components/SiderMenu';
 import vocabularyData from './vocabulary.json';
@@ -43,7 +43,7 @@ interface Category {
 
 const App: React.FC = () => {
     const [words, setWords] = React.useState<VocabularyItem[]>([]);
-    const { toggleTheme, mode, selectedCategories, language, toggleLanguage, collapsed, toggleCollapsed } = useThemeContext();
+    const { toggleTheme, mode, selectedCategories, language, toggleLanguage, collapsed, toggleCollapsed,  } = useThemeContext();
 
     React.useEffect(() => {
         const data: Category[] = vocabularyData;
@@ -59,11 +59,14 @@ const App: React.FC = () => {
         setWords(allWords);
     }, []);
 
-    const filteredWords = words.filter(
+    const localFavoriteStr = localStorage.getItem('favorite');
+    const localFavorite = localFavoriteStr ? JSON.parse(localFavoriteStr) : [];
+
+    const filteredWords = [...words.filter(
         (word) =>
             selectedCategories.includes(word.category.id) ||
             selectedCategories.includes(word.subcategory.id)
-    );
+    ), ...localFavorite];
 
     return (
         <Layout style={{ height: '100dvh' }}>

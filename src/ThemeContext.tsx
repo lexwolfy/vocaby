@@ -1,6 +1,7 @@
 import React, { createContext, useState, useMemo, useContext } from 'react';
 import { ConfigProvider, theme } from 'antd';
 import vocabularyData from './vocabulary.json';
+import { VocabularyItem } from './Vocabulary.types';
 
 interface ThemeContextType {
     toggleTheme: () => void;
@@ -11,6 +12,9 @@ interface ThemeContextType {
     toggleLanguage: () => void;
     collapsed: boolean;
     toggleCollapsed: () => void;
+    toggleFavorite: (word: VocabularyItem) => void;
+    isFavorite: (word: VocabularyItem) => boolean;
+    clearFavorite: () => void;
 }
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
@@ -19,6 +23,10 @@ export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = (
     const [mode, setMode] = useState<'light' | 'dark'>('light');
     const [language, setLanguage] = useState<'fr' | 'en'>('en');
     const [collapsed, setCollapsed] = useState(localStorage.getItem('collapsed') === 'true' ?? false);
+
+    const localFavoriteStr = localStorage.getItem('favorite');
+    const localFavorite = localFavoriteStr ? JSON.parse(localFavoriteStr) : [];
+    const [favorite, setFavorite] = useState<VocabularyItem[]>(localFavorite);
 
     const localCategoryIds = localStorage.getItem('selectedCategories');
     const selectedLocalCategories = localCategoryIds ? JSON.parse(localCategoryIds) : null;
@@ -31,9 +39,6 @@ export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = (
 
     const [selectedCategories, setSelectedCategories] = useState<number[]>(selectedLocalCategories ?? allCategoryIds);
 
-    // useEffect(() => {
-    //     setSelectedCategories(selectedLocalCategories ?? allCategoryIds);
-    // }, [selectedLocalCategories, allCategoryIds]);
 
     const currentTheme = useMemo(() => {
         const algorithm = mode === 'light' ? theme.defaultAlgorithm : theme.darkAlgorithm;
@@ -64,8 +69,26 @@ export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = (
         localStorage.setItem('collapsed', JSON.stringify(!collapsed));
     }
 
+    const toggleFavorite = (word: VocabularyItem) => {
+        if (favorite.some(fav => fav.english === word.english)) {
+            setFavorite(favorite.filter(fav => fav.english !== word.english));
+            localStorage.setItem('favorite', JSON.stringify(favorite.filter(fav => fav.english !== word.english)));
+        } else {
+            setFavorite([...favorite, word]);
+            localStorage.setItem('favorite', JSON.stringify([...favorite, word]));
+        }
+    }
+
+    const isFavorite = (word: VocabularyItem) => {
+        return favorite.some(fav => fav.english === word.english);
+    }
+
+    const clearFavorite = () => {
+        setFavorite([]);
+    }
+
     return (
-        <ThemeContext.Provider value={{ toggleTheme, mode, selectedCategories, setActiveCategories, language, toggleLanguage, collapsed, toggleCollapsed }}>
+        <ThemeContext.Provider value={{ toggleTheme, mode, selectedCategories, setActiveCategories, language, toggleLanguage, collapsed, toggleCollapsed, toggleFavorite, isFavorite, clearFavorite }}>
             <ConfigProvider theme={currentTheme}>
                 {children}
             </ConfigProvider>
