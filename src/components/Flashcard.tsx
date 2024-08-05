@@ -33,7 +33,6 @@ const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flip
     const [listening, setListening] = useState(false);
     const [messageApi, contextHolder] = message.useMessage();
 
-
     const onSpeak = () => {
         const utterance = new SpeechSynthesisUtterance(word[lang]);
         utterance.lang = lang === 'french' ? 'fr-FR' : 'en-US';
@@ -64,16 +63,16 @@ const Flashcard: React.FC<FlashcardProps> = ({ word, category, subcategory, flip
     }
 
     recognition.onresult = (event: any) => {
-        const color = event.results[0][0].transcript;
-        if (color === word[lang]) {
+        const transcript = event.results[0][0].transcript;
+        if (transcript === word[lang]) {
             messageApi.open({
                 type: 'success',
-                content: 'Congratz',
+                content: 'Congratulations!',
             });
         } else {
             messageApi.open({
                 type: 'warning',
-                content: 'Try again!',
+                content: `We understood "${transcript}"... Try again!`,
             });
         }
     };
